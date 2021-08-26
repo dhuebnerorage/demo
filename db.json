@@ -428,33 +428,4 @@
     ],
     length: 4,
   },
-  {
-    refId: 'F',
-    name: undefined,
-    meta: undefined,
-    fields: [
-      { name: 'time', type: FieldType.time, config: {}, values: new ArrayVector([0, 0, 0, 0]) },
-      {
-        name: 'origin_service',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['api-gateway', 'api-gateway', 'api-gateway', 'customers-service']),
-      },
-      {
-        name: 'protocol',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['http', 'http', 'http', 'http']),
-      },
-      {
-        name: 'service',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['customers-service', 'vets-service', 'visits-service', 'discovery-server']),
-      },
-      { name: 'target_external', type: FieldType.string, config: {}, values: new ArrayVector(['', '', '', '']) },
-      { name: 'error_out', type: FieldType.number, config: {}, values: new ArrayVector([14, 0, 0, 20]) },
-    ],
-    length: 4,
-  },
 ]
