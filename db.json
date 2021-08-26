@@ -1,5 +1,4 @@
-[
-    {
+{
     refId: 'A',
     name: undefined,
     meta: undefined,
@@ -99,4 +98,3 @@
     ],
     length: 13,
   },
-]
