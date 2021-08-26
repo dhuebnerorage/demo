@@ -404,28 +404,4 @@
     ],
     length: 13,
   },
-  {
-    refId: 'E',
-    name: undefined,
-    meta: undefined,
-    fields: [
-      { name: 'time', type: FieldType.time, config: {}, values: new ArrayVector([0, 0, 0, 0]) },
-      { name: 'origin_service', type: FieldType.string, config: {}, values: new ArrayVector(['', '', '', '']) },
-      {
-        name: 'protocol',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['http', 'http', 'http', 'http']),
-      },
-      {
-        name: 'service',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['api-gateway', 'discovery-server', 'customers-service', 'vets-service']),
-      },
-      { name: 'target_external', type: FieldType.string, config: {}, values: new ArrayVector(['', '', '', '']) },
-      { name: 'error_in', type: FieldType.number, config: {}, values: new ArrayVector([14, 20, 20, 0]) },
-    ],
-    length: 4,
-  },
 ]
