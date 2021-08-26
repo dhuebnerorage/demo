@@ -457,20 +457,4 @@
     ],
     length: 4,
   },
-  {
-    refId: 'G',
-    name: undefined,
-    meta: undefined,
-    fields: [
-      { name: 'time', type: FieldType.time, config: {}, values: new ArrayVector([0, 0]) },
-      {
-        name: 'service',
-        type: FieldType.string,
-        config: {},
-        values: new ArrayVector(['api-gateway', 'customers-service']),
-      },
-      { name: 'threshold', type: FieldType.number, config: {}, values: new ArrayVector([40.40604300000001, 10]) },
-    ],
-    length: 2,
-  },
 ]
