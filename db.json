@@ -1,9 +1,9 @@
 {
   "posts": [
-    { "app": 1, "target_app": "2" },
-    { "app": 2, "target_app": "3" },
-    { "app": 3, "target_app": "4" },
-    { "app": 4, "target_app": "1" }
+    { "app": 1, "target_app": "2", "req_rate": "50" },
+    { "app": 2, "target_app": "3", "req_rate": "50" },
+    { "app": 3, "target_app": "4", "req_rate": "50" },
+    { "app": 4, "target_app": "1", "req_rate": "50" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
