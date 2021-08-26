@@ -1,4 +1,5 @@
-{
+[
+    {
     refId: 'A',
     name: undefined,
     meta: undefined,
@@ -471,4 +472,5 @@
       { name: 'threshold', type: FieldType.number, config: {}, values: new ArrayVector([40.40604300000001, 10]) },
     ],
     length: 2,
-  }
+  },
+]
