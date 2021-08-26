@@ -1,9 +1,9 @@
 {
   "posts": [
-    { "id": 1, "title": "test1" },
-    { "id": 2, "title": "test2" },
-    { "id": 3, "title": "test3" },
-    { "id": 4, "title": "test4" }
+    { "app": 1, "target_app": "2" },
+    { "app": 2, "target_app": "3" },
+    { "app": 3, "target_app": "4" },
+    { "app": 4, "target_app": "1" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
