@@ -11,4 +11,9 @@
   "profile": {
     "name": "typicode"
   }
+  "services": [
+    { "app": 1, "target_app": "1", "req_rate": "50"},
+    { "app": 2, "target_app": "2", "req_rate": "50"},
+    { "app": 3, "target_app": "3", "req_rate": "50"}
+  ],
 }
