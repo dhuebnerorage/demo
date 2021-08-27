@@ -1,12 +1,12 @@
   
 {
   "services": [
-    { "app": 1, "target_app": "2", "req_rate": "50" },
-    { "app": 2, "target_app": "3", "req_rate": "50" },
-    { "app": 3, "target_app": "4", "req_rate": "50" },
-    { "app": 4, "target_app": "5", "req_rate": "50" },
-    { "app": 5, "target_app": "6", "req_rate": "50" },
-    { "app": 6, "target_app": "1", "req_rate": "50" }
+    { "app": 1, "target_app": "2", "origin_app": "1", "req_rate": "50" },
+    { "app": 2, "target_app": "3", "origin_app": "2", "req_rate": "50" },
+    { "app": 3, "target_app": "4", "origin_app": "3", "req_rate": "50" },
+    { "app": 4, "target_app": "5", "origin_app": "4", "req_rate": "50" },
+    { "app": 5, "target_app": "6", "origin_app": "5", "req_rate": "50" },
+    { "app": 6, "target_app": "1", "origin_app": "6", "req_rate": "50" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
