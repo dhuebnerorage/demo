@@ -1,4 +1,4 @@
-  
+[  
 {
   "services": [
     { "app": "service 1", "target_app": "service 2", "req_rate": "50", "resp_time": "5000"  },
@@ -16,3 +16,4 @@
     "name": "typicode"
   }
 }
+]
