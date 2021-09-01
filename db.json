@@ -4,4 +4,5 @@
     { "app": "service 2", "target_app": "service 3", "req_rate": "75", "resp_time": "15000" },
     { "app": "service 3", "target_app": "service 4", "req_rate": "25", "resp_time": "4500"  },
     { "app": "service 4", "target_app": "service 1", "req_rate": "55", "resp_time": "1000"  },
+ ]
 }
