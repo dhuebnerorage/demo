@@ -1,3 +1,4 @@
+{
 "posts":[
     { "app": "service 1", "target_app": "service 2", "req_rate": "50", "resp_time": "5000"  },
     { "app": "service 2", "target_app": "service 3", "req_rate": "75", "resp_time": "15000" },
@@ -6,3 +7,4 @@
     { "app": "service 5", "target_app": "service 6", "req_rate": "25", "resp_time": "3000"  },
     { "app": "service 6", "target_app": "service 1", "req_rate": "75", "resp_time": "7500"  }
 ]
+}
