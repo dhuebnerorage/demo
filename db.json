@@ -1,7 +1,7 @@
 {
 "services":[
-    { "app": "service 1", "target_app": "service 2", "origin_app": "service 2", "req_rate": "50", "resp_time": "800", "error_rate_in": "15", "error_rate_out": "10"},
-    { "app": "service 2", "target_app": "service 1", "origin_app": "service 1", "req_rate": "75", "resp_time": "1500", "error_rate_in": "25", "error_rate_out": "25"},
+    { "app": "service 1", "target_app": "service 2", "origin_app": "service 2", "req_rate": "50", "resp_time": "800",},
+    { "app": "service 2", "target_app": "service 1", "origin_app": "service 1", "req_rate": "75", "resp_time": "1500",},
     { "app": "service 3", "target_app": "service 2", "origin_app": "service 2", "req_rate": "25", "resp_time": "450",},
     { "app": "service 4", "target_app": "service 2", "origin_app": "service 2", "req_rate": "25", "resp_time": "450",},
     { "app": "service 5", "target_app": "service 2", "origin_app": "service 2", "req_rate": "25", "resp_time": "450",},
