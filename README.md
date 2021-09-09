@@ -6,7 +6,6 @@
 
 Fork it and change `db.json` values or create a repo with a `db.json` file.
 
-
 Receive:
 
 container_network_receive_bytes_total
@@ -85,7 +84,7 @@ statefulset.apps/storage-thanos-ruler                                1/1     5m5
 statefulset.apps/storage-thanos-storegateway                         1/1     5m54s
 
 
-###### storage(Thanos):
+### storage(Thanos):
 
 pod/storage-thanos-bucketweb-84bcc96b9-hn4vg              1/1     Running   0          5m54s
 pod/storage-thanos-compactor-5686c6469b-klg5p             1/1     Running   0          5m54s
@@ -115,7 +114,7 @@ statefulset.apps/storage-thanos-ruler                                1/1     5m5
 statefulset.apps/storage-thanos-storegateway                         1/1     5m54s
 
 
-###### metrics(Prometheus):
+### metrics(Prometheus):
 
 pod/metrics-kube-prometheus-operator-7d64586d94-j6z4w     1/1     Running   0          6m35s
 pod/metrics-kube-state-metrics-8cf6b7ff-jgxp7             1/1     Running   0          6m35s
@@ -137,7 +136,7 @@ replicaset.apps/metrics-kube-prometheus-operator-7d64586d94   1         1       
 replicaset.apps/metrics-kube-state-metrics-8cf6b7ff           1         1         1       6m35s
 
 
-###### visual(Grafana):
+### visual(Grafana):
 
 pod/visual-grafana-6cb7988db9-g8bqv                       1/1     Running   0          5m30s
 
@@ -148,6 +147,6 @@ deployment.apps/visual-grafana                     1/1     1            1       
 replicaset.apps/visual-grafana-6cb7988db9                     1         1         1       5m30s
 
 
-###### without installation name:
+### without installation name:
 
 pod/alertmanager-metrics-kube-prometheus-alertmanager-0   2/2     Running   0          6m21s
